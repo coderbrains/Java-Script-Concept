@@ -291,7 +291,20 @@ function clicked(){
 
 // console.log(sum(45,60));
 
+logKaro = ()=>{
+    alert('HEllo Bachu')
+}
 
+// setTimeout(logKaro, 3000); It runs the following code only one time.
+
+
+//runs the following code multiple time
+// setInterval(() => {
+//   alert('Hello bachhu');  
+// }, 2000);
+
+//or
+// setInterval(logKaro, 2000);
 
 
 
