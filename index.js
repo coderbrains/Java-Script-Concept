@@ -317,14 +317,20 @@ logKaro = ()=>{
 
 
 // 14. Json object - JavaScript Object Notation  - standard file format
-obj = {name:"Awanish", length:7};
-jso = JSON.stringify(obj);
-console.log(jso)
-console.log(typeof jso);
-parsed = JSON.parse(`{"name":"Awanish","length":7}`);
-console.log(parsed)
-console.log(typeof parsed)
+// obj = {name:"Awanish", length:7};
+// jso = JSON.stringify(obj);
+// console.log(jso)
+// console.log(typeof jso);
+// parsed = JSON.parse(`{"name":"Awanish","length":7}`);
+// console.log(parsed)
+// console.log(typeof parsed)
 
+
+// Use of back ticks  ---  ``
+// var a = 10;
+// console.log("This is my ", a);
+// // using backticks 
+// console.log(`This is my ${a}`);
 
 
 
