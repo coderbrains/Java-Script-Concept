@@ -308,9 +308,22 @@ logKaro = ()=>{
 
 
 
+// 13. local storage in JS
+
+// localStorage.setItem('name','Awanish');
+// console.log(localStorage)
+// nam  = localStorage.getItem('name')
+// console.log
 
 
-
+// 14. Json object - JavaScript Object Notation  - standard file format
+obj = {name:"Awanish", length:7};
+jso = JSON.stringify(obj);
+console.log(jso)
+console.log(typeof jso);
+parsed = JSON.parse(`{"name":"Awanish","length":7}`);
+console.log(parsed)
+console.log(typeof parsed)
 
 
 
